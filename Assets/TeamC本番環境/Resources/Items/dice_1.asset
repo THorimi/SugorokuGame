@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1649145c69992ca489eb9f6054918a98, type: 3}
+  m_Name: dice_1
+  m_EditorClassIdentifier: 
+  _id: dice_1
+  _itemName: "\u304D\u3059\u3046\u30C0\u30A4\u30B9"
+  _itemText: "\u3064\u304E\u306E\u30B5\u30A4\u30B3\u30ED\u306E\u3081\u304C1, 3, 5\u306E\u3069\u308C\u304B\u306B\u306A\u308A\u307E\u3059"
+  _itemType: 0
+  _buyingPrice: 10

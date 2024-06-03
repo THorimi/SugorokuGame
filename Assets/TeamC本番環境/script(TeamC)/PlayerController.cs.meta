@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 392eed9cba74fb643b86d787708112e7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cameraCheck: {instanceID: 0}
+  - animator: {instanceID: 0}
+  - chest: {instanceID: 0}
+  - pathA: {instanceID: 0}
+  - newPath: {instanceID: 0}
+  - sugorokuGameDirector: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

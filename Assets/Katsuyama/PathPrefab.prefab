@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5246959134683650212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5946430255641739235}
+  - component: {fileID: 2747473459589549488}
+  m_Layer: 0
+  m_Name: PathPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5946430255641739235
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5246959134683650212}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -18.99, y: -2.97, z: -2.5000005}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2747473459589549488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5246959134683650212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d37e5385efd7064cb1d54c94960acae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Resolution: 4
+  m_Appearance:
+    pathColor: {r: 0, g: 1, b: 0, a: 1}
+    inactivePathColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    width: 0.2
+  m_Looped: 0
+  m_Waypoints:
+  - position: {x: 11.068975, y: 0, z: -7.8999376}
+    tangent: {x: -0.022100449, y: 0, z: 0.87732077}
+    roll: 0
+  - position: {x: 12.395626, y: 0, z: -5.5783854}
+    tangent: {x: 1.6908178, y: 0, z: -0.030415058}
+    roll: 0
+  - position: {x: 13.082934, y: 0, z: 1.1737207}
+    tangent: {x: 0.33074474, y: 0, z: 6.8007436}
+    roll: 0
+  - position: {x: 12.873354, y: 0, z: 7.8539915}
+    tangent: {x: -0.16870308, y: 0, z: 3.539813}
+    roll: 0
+  - position: {x: 18.492994, y: 0, z: 10.023337}
+    tangent: {x: 3.574933, y: 0, z: -0.01852417}
+    roll: 0
+  - position: {x: 21.224205, y: 0, z: 14.94139}
+    tangent: {x: 0.20004463, y: 0, z: 5.2969227}
+    roll: 0
+  - position: {x: 21.117142, y: 0, z: 23.77403}
+    tangent: {x: 0.10504913, y: 0, z: 2.690609}
+    roll: 0
+  - position: {x: 11.354613, y: 0, z: 25.389664}
+    tangent: {x: -0.21454144, y: 0, z: -0.033798218}
+    roll: 0
+  - position: {x: 5.793366, y: 0, z: 25.166756}
+    tangent: {x: -0.11138964, y: 0, z: -0.32605934}
+    roll: 0
+  - position: {x: 5.8157635, y: 0, z: 20.58549}
+    tangent: {x: 0.019165516, y: 0, z: -2.7817307}
+    roll: 0
+  - position: {x: 5.8863893, y: 0, z: 15.590966}
+    tangent: {x: -0.13521528, y: 0, z: -1.7010641}
+    roll: 0
+  - position: {x: 3.4869194, y: 0, z: 13.889902}
+    tangent: {x: -1.730485, y: 0, z: -0.002875328}
+    roll: 0
+  - position: {x: 1.7564363, y: 0, z: 16.871727}
+    tangent: {x: 0.070625305, y: 0, z: 1.6438551}
+    roll: 0
+  - position: {x: 1.8270617, y: 0, z: 24.845201}
+    tangent: {x: -0.0022602081, y: 0, z: 0.25590706}
+    roll: 0
+  - position: {x: -4.253916, y: 0, z: 24.941143}
+    tangent: {x: -1.5396805, y: 0, z: 0.1109581}
+    roll: 0
+  - position: {x: -5.6227503, y: 0, z: 20.039263}
+    tangent: {x: -0.5695839, y: 0, z: -5.066104}
+    roll: 0
+  - position: {x: -7.4623604, y: 0, z: 16.87519}
+    tangent: {x: -0.07849693, y: 0, z: -2.4703455}
+    roll: 0
+  - position: {x: -5.239401, y: 0, z: 14.18655}
+    tangent: {x: 2.5137548, y: 0, z: -0.008673668}
+    roll: 0
+  - position: {x: -2.2535257, y: 0, z: 14.207384}
+    tangent: {x: 0.0056142807, y: 0, z: -0.06768894}
+    roll: 0
+  - position: {x: -2.2479115, y: 0, z: 5.9161487}
+    tangent: {x: 0.0056142807, y: 0, z: -0.06768894}
+    roll: 0
+  - position: {x: -13.825808, y: 0, z: 5.8484597}
+    tangent: {x: -0.09540367, y: 0, z: -0.06768894}
+    roll: 0
+  - position: {x: -13.954887, y: 0, z: 17.431625}
+    tangent: {x: 0.0056142807, y: 0, z: -0.06768894}
+    roll: 0
+  - position: {x: -23.849134, y: 0, z: 17.363937}
+    tangent: {x: 0.0056142807, y: 0, z: -0.06768894}
+    roll: 0
+  - position: {x: -23.84352, y: 0, z: 10.527978}
+    tangent: {x: -0.19642258, y: 0, z: -0.06768894}
+    roll: 0
+  - position: {x: -18.483896, y: 0, z: 10.426616}
+    tangent: {x: -0.12907791, y: 0, z: -0.20238113}
+    roll: 0
+  - position: {x: -18.612974, y: 0, z: 6.8774743}
+    tangent: {x: -0.12907791, y: 0, z: -0.20238113}
+    roll: 0
+  - position: {x: -20.415434, y: 0, z: 6.6227994}
+    tangent: {x: -0.12907791, y: 0, z: -0.20238113}
+    roll: 0
+  - position: {x: -20.260574, y: 0, z: -2.9672527}
+    tangent: {x: -0.12907791, y: 0, z: -0.20238113}
+    roll: 0
+  - position: {x: -7.6619244, y: 0, z: -3.035658}
+    tangent: {x: -0.12907791, y: 0, z: -0.20238113}
+    roll: 0
+  - position: {x: -7.428194, y: 0, z: -19.233137}
+    tangent: {x: 0.3062935, y: 0, z: -0.20238113}
+    roll: 0
+  - position: {x: 5.271256, y: 0, z: -19.390753}
+    tangent: {x: -0.20163918, y: 0, z: -0.20238113}
+    roll: 0
+  - position: {x: 5.069617, y: 0, z: -5.298369}
+    tangent: {x: -0.20163918, y: 0, z: 0.028179169}
+    roll: 0
+  - position: {x: 11.096536, y: 0, z: -5.27019}
+    tangent: {x: -0.20163918, y: 0, z: 0.028179169}
+    roll: 0
+  - position: {x: 11.220268, y: 0, z: -9.5183325}
+    tangent: {x: -0.20163918, y: 0, z: 0.028179169}
+    roll: 0
